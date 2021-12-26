@@ -5,7 +5,7 @@ This project simulates the functionality of the unix Bash shell.
 The project aim was to recreate the functionality of the unix Bash shell on a smaller scale.
 It is part of the obligatory projects at the [42-Heilbronn](https://www.42heilbronn.de/en/) coding school in Heilbronn, Germany.
 *Project Rules:* The following functions were allowed, any function not included in this list was forbidden:
-```
+```git@github.com:realisticDonut/Minishell.git
 readline, rl_clear_history, rl_on_new_line,
 rl_replace_line, rl_redisplay, add_history,
 printf, malloc, free, write, access, open, read,
@@ -56,6 +56,9 @@ The following functionality is included:
   ```
 ### Compilation and execution
 - Clone the repository to your system
+```
+git clone git@github.com:realisticDonut/Minishell.git
+```
 - Navigate to the /minishell directory in the terminal
 - execute the ``` make ``` command
 - execute the minishell with ```./minishell```
