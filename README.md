@@ -40,3 +40,24 @@ The following functionality is included:
   - unset with no options
   - env with no options or arguments
   - exit with no options
+ 
+## Technologies
+ - Programming language: C (C11)
+## Usage
+### Prerequisites
+- Must be a Unix-based system. Please note: Depending on your build, you might get problems during compilation or         execution. Code was tested in Linux 5.11.0-43-generic
+- The Readline library must be installed.
+  ```
+  sudo apt-get install libreadline6 libreadline6-dev
+  ```
+- GNU Make must be installed
+  ```
+  sudo apt-get install make
+  ```
+### Compilation and execution
+- Clone the repository to your system
+- Navigate to the /minishell directory in the terminal
+- execute the ``` make ``` command
+- execute the minishell with ```./minishell```
+- Input commands just like in the original Bash
+
